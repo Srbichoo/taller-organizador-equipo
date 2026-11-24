@@ -1,3 +1,23 @@
+# Organizador de Descargas
+
+Script en Python que ordena automáticamente archivos revueltos (fotos, documentos, videos, instaladores y otros) en carpetas según su tipo, sin requerir librerías externas[cite: 2, 5, 9].
+
+## Problema que resuelve
+Tener carpetas llenas de archivos mezclados dificulta encontrar documentos o instaladores rápido[cite: 2]. Este proyecto clasifica y mueve los archivos a carpetas organizadas en segundos[cite: 2].
+
+## Cómo usarlo
+1. Asegúrate de tener **Python 3** instalado.
+2. (Opcional) Ejecuta `crear_desorden.py` para generar la carpeta de prueba `descargas_de_prueba` con archivos de ejemplo sin tocar tus archivos reales[cite: 5, 9].
+3. Ejecuta `organizador.py` para ordenar los archivos[cite: 5, 9].
+
+## Ejemplo de salida en pantalla
+```text
+Organizando archivos...
+- foto.jpg -> Imagenes/
+- guia.pdf -> Documentos/
+- video.mp4 -> Videos/
+¡Listo! Archivos organizados correctamente.
+
 # Issues del Organizador de Descargas
 
 El líder del equipo crea estos issues en GitHub (**Issues → New issue**), copiando el título y la descripción, y le asigna cada uno a un integrante (**Assignees**). Las etiquetas (**Labels**) ya vienen en GitHub.
